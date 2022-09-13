@@ -43,24 +43,11 @@ table {
 }
 .App {
 	display: flex;
-	font-family: 'Proxima Nova';
+	    font-family: 'Proxima Nova';
 }	
 @font-face {
-    font-family: 'Proxima Nova ';
-    src: url('../fonts/ProximaNovaT-Thin.eot');
-    src: url('../fonts/ProximaNovaT-Thin.eot') format('embedded-opentype'),
-    url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
-    url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova_regular.ttf');
     font-weight: normal;
     font-style: normal;
     }
-
-	@font-face {
-		font-family: 'Proxima Nova bald';
-		src: url('../fonts/proximanova_bold.otf');
-		src: url('../fonts/ProximaNovaT-Thin.eot') format('embedded-opentype'),
-		url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
-		url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
-		font-weight: bold;
-		font-style: normal;
-		}
