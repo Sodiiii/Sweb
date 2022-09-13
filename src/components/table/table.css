@@ -1,42 +1,182 @@
 .table__wrapper {
-    background: #ffff;
-    margin-left: 20px;
-    padding-left: 20px;
-    padding-top: 17px;
+  background: #ffff;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 17px;
+  margin-right: 20px;
 }
 .table__acc {
-    font-size: 12px;
-    line-height: 15px;
-    color: #062436;
-    margin-bottom: 11px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #062436;
+  margin-bottom: 11px;
 }
 .table__order {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #062436;
-    margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #062436;
+  margin-bottom: 15px;
 }
 .line {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 16px;
-    height: 2px;
-    border-top: 2px solid #F7FAFB;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  height: 2px;
+  border-top: 2px solid #f7fafb;
 }
-.category {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #7A8185;
-    margin-bottom: 12px;
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7a8185;
+  margin-bottom: 12px;
 }
-.select{
-    width: 232px;
-    height: 36px;
-    background: #FFFFFF;
-    border: 2px solid #939DA2;
-    border-radius: 4px;
-    margin-bottom: 20px;
+.select {
+  width: 232px;
+  height: 36px;
+  background: #ffffff;
+  border: 2px solid #939da2;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.bars {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.KVM-10,
+.KVM-20,
+.KVM-40,
+.KVM-80,
+.KVM-160 {
+  width: 232px;
+  height: 547px;
+  border-radius: 4px;
+  background: #e0f6fc;
+  margin: 20px 20px 20px 0px;
+}
+.HDD-500,
+.HDD-1000 {
+  width: 232px;
+  height: 547px;
+  border-radius: 4px;
+  background: #c4ebf8;
+  margin: 20px 20px 20px 0px;
+}
+.bar__logoKVM-10,
+.bar__logoKVM-20,
+.bar__logoKVM-40,
+.bar__logoKVM-80,
+.bar__logoKVM-160 {
+  width: 26px;
+  height: 26px;
+  background: url(./ssd.svg) no-repeat;
+  padding-right: 16px;
+}
+
+.bar__logoHDD-500,
+.bar__logoHDD-1000 {
+  width: 26px;
+  height: 26px;
+  background: url(./hdd.svg) no-repeat;
+  padding-right: 16px;
+}
+
+.bar__logoTURBO-40,
+.bar__logoTURBO-80,
+.bar__logoTURBO-160 {
+  width: 26px;
+  height: 26px;
+  background: url(./turbo.svg) no-repeat;
+  padding-right: 16px;
+}
+
+.TURBO-40,
+.TURBO-80,
+.TURBO-160 {
+  width: 232px;
+  height: 547px;
+  border-radius: 4px;
+  background: #ecfdf7;
+  margin: 20px 20px 20px 0px;
+}
+.bar__top {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.bar__body {
+  margin-left: 20px;
+}
+.bar__price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.stats {
+  display: flex;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.stats__text {
+  margin-right: 11px;
+  width: 36px;
+  font-size: 12px;
+  line-height: 17px;
+  color: #62686c;
+}
+.bar__select {
+  width: 192px;
+  height: 36px;
+  background: #ffffff;
+  border: 2px solid #939da2;
+  border-radius: 4px;
+  margin-bottom: 23px;
+}
+.switch {
+  width: 192px;
+  height: 20px;
+  background: url(./sw.svg);
+  cursor: pointer;
+}
+.bottom {
+  display: flex;
+}
+.plus {
+  color: rgba(61, 189, 246, 1);
+  font-size: 20px;
+  margin-right: 19px;
+  margin-top: 30px;
+}
+.bar__adds {
+  margin-top: 26px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.bar__btn {
+  color: #ffffff;
+  background: #3dbdf6;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  width: 167px;
+  height: 36px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.bar__btn:hover {
+  background: #37ace0;
+}
+.bar__btn:active {
+  background: #0086c2;
 }
